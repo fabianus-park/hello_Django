@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-print("hello");
-=======
 import django
 import sqlite3
 
@@ -18,4 +14,3 @@ for row in cur.execute( v_sql ):
     print( row );
 
 con.close()
->>>>>>> 23a1c38d477b787d7a5c9b1e340f92341a2f5aa6
