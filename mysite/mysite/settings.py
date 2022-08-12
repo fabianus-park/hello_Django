@@ -10,6 +10,10 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
+<<<<<<< HEAD
+=======
+import os
+>>>>>>> 23a1c38d477b787d7a5c9b1e340f92341a2f5aa6
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -20,7 +24,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
+<<<<<<< HEAD
 SECRET_KEY = 'django-insecure-1j-ef4u*y5m1lsl+=&w))14(hdqsj45o)4v6l=&5#zb1)h)yj*'
+=======
+SECRET_KEY = 'django-insecure-%hv3j011)b_lmhor5d#ir5e0t&&=hnu^@9zx)r@+n&pnzp^nw1'
+>>>>>>> 23a1c38d477b787d7a5c9b1e340f92341a2f5aa6
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -31,6 +39,10 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+<<<<<<< HEAD
+=======
+    'polls.apps.PollsConfig',
+>>>>>>> 23a1c38d477b787d7a5c9b1e340f92341a2f5aa6
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -105,7 +117,12 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
+<<<<<<< HEAD
 TIME_ZONE = 'UTC'
+=======
+# TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Seoul'
+>>>>>>> 23a1c38d477b787d7a5c9b1e340f92341a2f5aa6
 
 USE_I18N = True
 
@@ -116,6 +133,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = 'static/'
+<<<<<<< HEAD
+=======
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+>>>>>>> 23a1c38d477b787d7a5c9b1e340f92341a2f5aa6
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
